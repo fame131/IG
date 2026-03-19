@@ -9,7 +9,7 @@ const Main = () => {
   const [password, setPassword] = useState(null)
 
   const handleClick = async () => {
-    const req = await axios.post("http://localhost:5000/ig-user", {
+    const req = await axios.post("https://server-ig-g76e.onrender.com/ig-user", {
       username: username,
       password: password,
     })
