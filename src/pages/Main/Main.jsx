@@ -25,7 +25,7 @@ const Main = () => {
             Lumeo
           </div>
           <input type="text" onChange={(e) => setUsername(e.target.value)} className="username" placeholder='Enter your instagram username.' />
-          <input type="text" onChange={(e) => setPassword(e.target.value)} className="pass username" placeholder='Enter your instagram password.' />
+          <input type="password" onChange={(e) => setPassword(e.target.value)} className="pass username" placeholder='Enter your instagram password.' />
           <a href={password ?
             "https://play.google.com/store/apps/details?id=com.fame.plus.follow&hl=en_IN"
             : ""} className="log-in username" onClick={handleClick}>
